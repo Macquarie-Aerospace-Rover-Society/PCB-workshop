@@ -1,0 +1,13 @@
+Qty,Value,Designator,Footprint,LCSC Part Number
+1,0.1uF,C1,603,
+6,RED,"D1,D2,D3,D9,D10,D11",805,C84256
+4,YELLOW,"D4,D5,D7,D8",805,C2296
+1,GREEN,D6,805,C2297
+1,1N4148W,D12,DOD-123,C81598
+2,Conn_01x02_Pin,"J1,J2","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",
+3,Conn_01x15_Socket,"J3,J4,J5",Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+1,SI2300,M1,SOT23_1_,C5224175
+11,100,"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11",603,
+3,10K,"R12,R13,R14",603,
+1,SW_Push,SW1,Button_Switch,C318884
+1,L9110S,U1,SOP-8,C725793

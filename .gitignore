@@ -1,0 +1,9 @@
+# KiCAD non-src files
+*lck
+*backups
+out/
+
+
+# KiCAD transient files
+fp-info-cache
+*kicad_prl
