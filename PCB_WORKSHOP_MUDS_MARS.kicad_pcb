@@ -398,7 +398,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
 			(uuid "036633eb-b4f5-4c23-a449-1fcd5a5333f1")
 			(effects
@@ -2352,7 +2352,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.375 0 0)
+			(at -2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "0053530b-5d34-4740-b6ac-483be14da33c")
 			(effects
@@ -3355,7 +3355,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 1.524 0)
+			(at 0 -1.524 0)
 			(layer "F.SilkS")
 			(uuid "c0e66d4e-488b-4c90-9e99-73e4af265cec")
 			(effects
@@ -4783,7 +4783,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.43 0)
+			(at 0 1.524 0)
 			(layer "F.SilkS")
 			(uuid "8a0a8624-bb6e-4d11-8e54-e26c26de7f0d")
 			(effects
@@ -9767,7 +9767,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
-			(at -4.318 0 0)
+			(at -0.254 -2.032 0)
 			(layer "F.SilkS")
 			(uuid "98abb362-4c86-44da-b7a5-9630fd44aa00")
 			(effects
@@ -11829,6 +11829,36 @@
 		(layer "F.SilkS")
 		(uuid "1671b63e-dec0-4500-9e3c-07297e7b049d")
 	)
+	(gr_line
+		(start 162.052 131.064)
+		(end 163.83 129.286)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "294fd9ff-f617-4c6a-a55f-97e1a0a32bd0")
+	)
+	(gr_line
+		(start 162.052 114.554)
+		(end 155.702 114.554)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "314eced2-b7f7-4019-b2ef-7448f294175b")
+	)
+	(gr_line
+		(start 155.702 114.554)
+		(end 154.178 116.078)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37cf78f7-aa94-4a6b-ae33-5150386e450b")
+	)
 	(gr_rect
 		(start 158.75 72.39)
 		(end 163.83 110.49)
@@ -11841,6 +11871,36 @@
 		(uuid "389c913f-0cbc-4e23-ab1a-54f0cdb25c52")
 	)
 	(gr_line
+		(start 162.052 114.554)
+		(end 163.83 116.332)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5971a155-f2cb-4a2e-b8aa-8c7ef548fb7b")
+	)
+	(gr_line
+		(start 180.848 118.618)
+		(end 181.61 117.856)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76f2bad2-29e3-4dc7-b1b8-537a51a4462d")
+	)
+	(gr_line
+		(start 154.178 129.794)
+		(end 154.178 116.078)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80eadbd1-fec6-48da-a3c5-4c579783a676")
+	)
+	(gr_line
 		(start 187.198 137.668)
 		(end 188.722 137.668)
 		(stroke
@@ -11849,6 +11909,57 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a135ba46-0051-40af-925c-fb4f1aea452e")
+	)
+	(gr_line
+		(start 180.848 129.286)
+		(end 180.848 118.618)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a58f7900-b1ce-4d0b-9e42-65d55afb4340")
+	)
+	(gr_line
+		(start 163.83 129.286)
+		(end 163.83 116.332)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a69589ad-885a-4214-adc0-1614447f4e78")
+	)
+	(gr_line
+		(start 181.61 117.856)
+		(end 189.23 117.856)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba867363-e876-40d4-b5e1-f0e28ffce5ba")
+	)
+	(gr_rect
+		(start 165.862 71.628)
+		(end 180.848 115.316)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e3f17480-c613-445b-b41c-77547091b7ec")
+	)
+	(gr_line
+		(start 155.448 131.064)
+		(end 154.178 129.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3efeefb-bd41-4c2a-9b63-d88d532f62c0")
 	)
 	(gr_line
 		(start 164.338 89.408)
@@ -12759,6 +12870,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "UniDir Motor Driver"
+		(at 188.976 131.572 90)
+		(layer "F.SilkS")
+		(uuid "69c9efb9-ad9d-424d-a4f9-de2863a4070c")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Ext-Power"
 		(at 168.148 130.556 0)
 		(layer "F.SilkS")
@@ -12767,6 +12890,18 @@
 			(font
 				(size 0.9 0.9)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOPPIT Game"
+		(at 179.832 114.554 90)
+		(layer "F.SilkS")
+		(uuid "6ac2de3a-8a49-42f0-a967-fe391835c9b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -12804,6 +12939,19 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H-Bridge Driver"
+		(at 163.322 127.762 90)
+		(layer "F.SilkS")
+		(uuid "c246219e-8fc5-4e04-9d67-c2287a873ab4")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
 				(bold yes)
 			)
 			(justify left bottom)
