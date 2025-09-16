@@ -520,7 +520,7 @@
       "plot": "out/",
       "pos_files": "out/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PCB_WORKSHOP_MUDS_MARS.step",
       "svg": "",
       "vrml": ""
     },
