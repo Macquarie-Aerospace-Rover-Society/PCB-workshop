@@ -24,7 +24,10 @@ To ease this process some **EXAMPLES** outputs are provided [BOM.csv](./out/BOM.
 ![PCB schematic](./docs/schematic.png)
 
 
-![PCB 3D render](./docs/render-pcb-top.png)
+![PCB 3D render top](./docs/render-pcb-top.png)
+
+
+![PCB 3D render bottom](./docs/render-pcb-btm.png)
 
 ## Additional notes
 
